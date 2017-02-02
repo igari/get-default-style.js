@@ -1,6 +1,6 @@
 # getDefaultStyle
 
-An API which is able to get default computed value(except for width / height) in state of non specified style.
+An API which is able to get default computed value(except for width / height) in state of non specified style via dummy ifame in the browser.
 
 ## Installation
 
@@ -21,4 +21,14 @@ let style = getDefaultStyle(element[, pseudoElt]);
 ### getPropertyValue
 ```
 style.getPropertyValue(propertyName);//any value
+```
+
+## Example
+
+```js
+let div = document.querySelector('div');
+let style = getDefaultStyle(div);
+style.getPropertyValue('width');//auto
+style.getPropertyValue('margin-top');//0px
+style.getPropertyValue('background-position');//0% 0%
 ```

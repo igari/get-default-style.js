@@ -1,6 +1,6 @@
 {
   "name": "get-default-style.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An API which is able to get default computed value(except for width / height) in state of non specified style.",
   "main": "./dist/get-default-style.js",
   "directories": {
