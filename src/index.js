@@ -1,0 +1,1 @@
+require('./get-default-style.js');

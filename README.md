@@ -1,1 +1,1 @@
-# get-default-style.js
+# getDefaultStyle
