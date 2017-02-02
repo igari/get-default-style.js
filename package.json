@@ -1,7 +1,7 @@
 {
   "name": "get-default-style.js",
-  "version": "1.0.1",
-  "description": "An API which is able to get default computed value(except for width / height) in state of non specified style.",
+  "version": "1.0.2",
+  "description": "An API which is able to get default computed value(except for width / height) in state of non specified style via dummy ifame in the browser.",
   "main": "./dist/get-default-style.js",
   "directories": {
     "test": "test"
