@@ -3,7 +3,15 @@
 An API which is able to get default computed value(except for width / height) in state of non specified style via dummy ifame in the browser.
 
 ## Installation
+```sh
+bower install get-default-style.js
+```
+or
+```sh
+yarn add get-default-style.js
+```
 
+### Load with script tag
 ```html
 <script src="/path/to/get-default-style.js">
 ```
